@@ -2,12 +2,12 @@
      
     int main()
     {
-      int row, c, n, s;
+      int row, c, n;
      
       printf("Enter the number of rows in pyramid of stars you wish to see\n");
       scanf("%d", &n);
      
-      s = n;
+      int s = n;
      
       for (row = 1; row <= n; row++)  // Loop to print rows
       {
